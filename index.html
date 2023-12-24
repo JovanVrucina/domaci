@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,tr{
+            padding-right: 128px;
+        }
+    </style>
+    <script src="domaci.js"></script>
+    <script src="items.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+</head>
+<body onload="renderArticleList('#tabela', items)">
+    <table id="tabela">
+        <th>Naziv</th>
+        <th>Cena</th>
+        <th>Kolicina</th>
+        <th>Ukpna Cena</th>
+    </table>
+</body>
+</html>
